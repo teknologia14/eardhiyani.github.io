@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  margin: 0;
+  background-color: white;
+  
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #858888; /*buat warna*/
+}
+
+.topnav .search-container {
+  float: right;
+  padding: 6px;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container img {
+	vertical-align: middle;
+	margin-left:-280px;
+	width:1355px;
+	height:600px;
+}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 1355px;
+  padding: 20px;
+  margin-left:-280px;
+}
+
+
+
+.col-container {
+  float:center;
+  margin-left: auto;
+    margin-right: auto;
+  display: table;
+  width: 90%;
+  height:900%;
+  
+}
+.col {
+  display: table-cell;
+  padding: 15px;
+  width: 900px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #858888;
+  margin-top: 0px;
+}
+
