@@ -1,0 +1,10 @@
+.body{
+	background-image: ("background.jpg");
+}
+.bgimage{
+	position: relative;
+	opacity: 0.65;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

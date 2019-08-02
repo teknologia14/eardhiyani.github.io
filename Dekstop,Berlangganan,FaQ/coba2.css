@@ -1,0 +1,102 @@
+
+
+.content{
+	padding:
+	font-family: Sagoe UI, Verdana;
+	font-size: 17px;
+	text-align: justify;
+
+}
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #87cefa;
+	width: 90%;
+	height: auto;
+}
+.container.content{
+	width: 90%;
+	height: max-content;
+	float: left;
+	padding: 20px;
+	background-color: #87cefa;
+}
+.tombol{
+  background:#2C97DF;
+  color:white;
+  border-top:5;
+  border-left:0;
+  border-right:50px;
+  border-bottom:5px solid #2A80B9;
+  padding:10px 15px;
+  text-decoration:none;
+  font-family:sans-serif;
+  font-size:11pt;
+}
+
+
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #858888; /*buat warna*/
+}
+
+.topnav .search-container {
+  float: right;
+  padding: 6px;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #858888;
+  margin-top: 20px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+
+}
+
