@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Home</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Untuk headerna */
+.header {
+  padding: 20px;
+  text-align: center;
+  color: white;
+  background-image: url("banner2.jpg");
+  margin-left: 
+}
+
+
+/* untuk navbar ni ea */
+.topnav {
+  overflow: hidden;
+  background-color: #858888; /*buat warna*/
+}
+
+/* style buat link navbar */
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* perubahan warna pada hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+ /* untuk tombol search */
+.topnav .search-container {
+  float: right;
+  padding-bottom: 10px;
+}
+
+/*untuk inputan search */
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+
+/*untuk button pada search*/
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+/*apabila dikenai kursor*/
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+.container{
+  position: relative;
+}
+
+/* efek kartu untuk artikel */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 15px;
+  margin-bottom: 35px;
+  
+}
+
+
+/* untuk 3 kolom */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+  background-color: #87cefa;
+
+}
+
+/* clear float setelah kolom */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+/* Footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: #858888;
+  margin-top: 20px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+
+<body>
+  <div class="topnav">
+    <a href="E:\Tugas Nguli\SEMESTER 4\PEMROGRAMAN WEB\Final Project WEB\Berita\layoutberita.html">Berita</a>
+      <a href="E:\Tugas Nguli\SEMESTER 4\PEMROGRAMAN WEB\Final Project WEB\Game\game2.html">Game</a>
+        <a href="E:\Tugas Nguli\SEMESTER 4\PEMROGRAMAN WEB\Final Project WEB\TipsnTrik\utama.html">Tips n Trik</a>  
+      <div class="search-container">
+        <input type="text" placeholder="Search.." name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+      </div>
+  </div>
+
+<div class="header">
+  <h1>Selamat Datang di Teknologia</h1>
+</div>
+
+<div class="container">
+<div class="row">
+  <div class="column">
+	   <div class="card">
+        <h2>Dapatkan Update Terbaru tentang Teknologi!</h2>
+          <p>Teknologia adalah situs web yang berisi info dan update terbaru tentang teknologi terkini dari desktop, game, dan berita terkini.</p>
+          <p>Setiap harinya akan ada updatean terbaru tentang teknologi dari berbagai penjuru negara.</p>
+          Bagi Anda pengamat teknologi, web ini sangat cocok untuk menjadi refferensi tentang teknologi yang sedang ada.
+          <br>
+          <p>Klik disini untuk membaca beritanya!</p> 
+          <a href="E:\Tugas Nguli\SEMESTER 4\PEMROGRAMAN WEB\Final Project WEB\Berita\layoutberita.html">Berita Terbaru Gan!</a>
+          
+    </div>
+ </div>
+  
+<div class="column">
+  <div class="card">
+    <h2>Berlangganan Gratis!</h2>
+      <br>
+      <p>Tidak akan khawatir ketinggalan berita terbaru tentang teknologi!</p>
+      <p>Cukup klik untuk berlangganan untuk kami kirimi update an terbarunya!</p>
+      <p>Tanpa spam gan! Update akan selalu dikirim berdasarkan jadwal yang tetap dan setiap hari!</p>
+      <br>
+      <p>Klik diisni untuk lanjut berlangganan!</p>
+      <a href="E:\Tugas Nguli\SEMESTER 4\PEMROGRAMAN WEB\Final Project WEB\Berita\berlangganan.html">Berlangganan</a>
+     
+  </div>
+</div>
+  
+<div class="column">
+  <div class="card">
+    <h2>Update Pengetahuanmu Dimana dan Kapan Saja!</h2>
+      <p>Tanpa ribet dan repot dapatkan update an dimana saja dan kapan saja!</p>
+      <p>Semua pengetahuan hanya dalam satu genggaman saja!</p>
+      <p>Setiap hari akan ada juga update tentang tips dan trik tentang teknologi yang seru!</p>
+      <br>
+      <p>Klik disini untuk mengetahui tips dan trik selanjutnya!</p>
+      <a href="E:\Tugas Nguli\SEMESTER 4\PEMROGRAMAN WEB\Final Project WEB\TipsnTrik\utama.html">Tips dan Triknya Sayang!</a>
+     
+  </div>
+ </div>
+</div> 
+</div>
+
+<div class="footer">
+  <a href="E:\Tugas Nguli\SEMESTER 4\PEMROGRAMAN WEB\Final Project WEB\Dekstop,Berlangganan,FaQ\faq.html">FaQ</a>
+  <a href="E:\Tugas Nguli\SEMESTER 4\PEMROGRAMAN WEB\Final Project WEB\Berita\berlangganan.html">Berlangganan</a>
+</div>
+
+</body>
+</html>
